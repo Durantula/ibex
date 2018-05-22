@@ -1,0 +1,52 @@
+.benefits{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    &-info{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+
+        @media screen and (max-width: 992px){
+            margin-bottom: 50px;
+        }
+
+        h1{
+            font-family: $mainFont;
+            color: $mainYellow;
+            font-size: 30px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+        p{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            color: $mainBrown;
+        }
+    }
+
+    &-icon-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img{
+            height: 100px;
+            width: auto;
+            margin-bottom: 10px;
+        }
+
+        p{
+            font-family: $mainFont;
+            color: $mainYellow;
+            font-size: 30px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+}

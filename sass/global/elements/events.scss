@@ -1,0 +1,193 @@
+.events-category{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0px;
+    margin: 25px;
+    min-width: 175px;
+    cursor: pointer;
+    &:hover{
+        background-color: $mainYellow;
+        p{
+            color: white;
+        }
+    }
+    p{
+        text-transform: uppercase;
+        color: $mainBrown;
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-family: $mainFont;
+        padding: 15px 30px;
+        margin: 0px;
+
+    }
+
+
+
+}
+
+.events-listing{
+    margin: 100px 0;
+    cursor: pointer;
+       
+     :hover{
+            .event-transparent-filter{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .event-title{
+                color: $mainBrown;
+            }
+
+            .standard-button{
+                background-color: $mainBrown;
+                border-color: $mainBrown;
+            
+            }
+             
+            .event-image{
+                overflow: hidden!important;  
+                -moz-transition: all 0.3s;
+                -webkit-transition: all 0.3s;
+                transition: all 0.3s;
+                -moz-transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+
+            }
+            
+          
+        
+    }
+
+    &-event{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+        
+
+        .event-content{
+            margin-bottom: 50px;
+            overflow: hidden;
+        }
+        .event-imageBox{
+            overflow: hidden!important;
+            height: 250px!important;
+            width: 100%;
+            margin-bottom: 20px;
+            position: relative;
+
+            .event-image{
+                width:100%;
+                height: 100%;
+                background-size: cover;
+                background-repeat: none;
+                background-position: center;
+            }
+        }
+        
+        // .event-image{
+        //     overflow: hidden!important;
+        //     height: 250px!important;
+        //     width: 100%;
+        //     background-size: cover;
+        //     background-repeat: none;
+        //     background-position: center;
+        //     margin-bottom: 20px;
+        //     position: relative;
+
+        //     img{
+        //         width:100%;
+        //     }
+        // }
+
+        .event-title{
+            color: $mainYellow;
+            font-family: $mainFont;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+        .event-description{
+            color: $mainBrown;
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+            margin: 0px;
+            line-height: 26px;
+            font-weight: 100;
+        }
+        .event-date{
+            font-weight: 500;
+            color: $mainBrown;
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+            margin: 0px;
+            line-height: 26px;
+        }
+    }
+}
+
+.event-transparent-filter{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(77, 68, 62, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    p{
+        color: white;
+        font-size: 24px;
+        font-family: $mainFont;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+}
+
+.event-modal-info{
+    color: $mainBrown!important;
+    line-height: 19px!important;
+}
+.event-modal-bottom{
+    margin-bottom: 50px;
+}
+.event-modal-share{
+    color: $mainBrown!important;
+    font-family: $mainFont!important;
+    margin-bottom: 5px!important;
+    font-size: 20px!important;
+}
+
+.event-modal-img{
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    margin: auto;
+}
+
+.event-modal-form{
+    .wpcf7-form{
+        float: none;
+        margin: auto;
+        border: none;
+        box-shadow: none;
+        padding: 50px 0 0;
+
+        input{
+            width: 95%;
+        }
+    }
+    .wpcf7-submit{
+        margin-top: 30px;
+    }
+
+}

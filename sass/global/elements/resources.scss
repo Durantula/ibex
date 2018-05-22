@@ -1,0 +1,230 @@
+.resource-margin{
+    padding: 100px 0;
+
+    @media screen and (max-width: 992px){
+        padding: 50px 0 0;
+    }
+}
+.resource-img{
+    width: 500px;
+    height: auto;
+}
+
+.resource-img-box{
+    margin: auto;
+     @media screen and (max-width: 992px){
+            text-align: center;
+            margin-top: 50px;
+    }
+}
+
+.resource-box{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.resource-content{
+   
+    width: 600px;
+    max-width: 95%;
+    margin: auto;
+
+    p{
+        font-family: 'Open Sans', sans-serif;
+        color: $mainBrown;
+    }
+
+    h1{
+        font-family: $mainFont;
+        color: $mainYellow;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+}
+
+.uwj-content{
+    width: 400px;
+    max-width: 95%;
+     @media screen and (max-width: 992px){
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+       
+
+     p{
+        font-family: 'Open Sans', sans-serif;
+        color: $mainBrown;
+    }
+
+    h1{
+        font-family: $mainFont;
+        color: $mainYellow;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+}
+.resource-source-contain{
+    margin-bottom: 50px;
+}
+.resource-source{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+
+    img{
+        height: 100px;
+        width: auto;
+    }
+
+
+    h2{
+        color: $mainYellow;
+        font-family: $mainFont;
+        text-transform: uppercase;
+        margin: 15px 0;
+        letter-spacing: 4px;
+        
+    }
+
+    p{
+        color: $mainBrown;
+        font-weight: 100;
+        font-family: 'Open Sans', sans-serif;
+        max-width: 90%;
+        line-height: 25px;
+    }
+}
+
+.folder{
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 450px;
+    // width: 350px;
+    max-width: 95%;
+    background-color: #f6f5f5;
+    padding: 20px 20px;
+    // margin: auto;
+
+    @media screen and (max-width: 992px){
+         margin: auto
+    }
+   
+    &-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    i{
+        color: $mainYellow;
+        font-size: 20px;
+    }
+
+    &-contents{
+        h3{
+            font-family: $mainFont;
+            font-size: 20px;
+            color: $mainBrown;
+            margin:0px;
+
+        }
+        p{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
+            font-size: 18px;
+            color: $mainBrown;
+            margin:0px;
+        }
+    }
+}
+
+
+/*
+ *  STYLE 2
+ */
+
+#style-2::-webkit-scrollbar-track
+{
+	// -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	// border-radius: 10px;
+	// background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #d8d8d8;
+}
+.document-download{
+    margin-bottom: 100px;
+}
+
+.download-doc{
+
+    &:hover{
+         text-decoration: none;
+
+        .folder-item{
+            h3,p{
+                color: $mainYellow;
+            }
+            i{
+                color: $mainBrown;
+            }
+        }
+    }
+}
+
+.faq{
+    background-color:#f6f5f5;
+    padding: 50px 0 100px;
+
+    &-answer{
+        color: $mainBrown;
+        max-width: 90%;
+        margin-top: 20px;
+        font-family: 'Open Sans', sans-serif;
+        display: none;
+    }
+
+    &-question{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p{
+            margin: 0px;
+            color: $mainYellow;
+            font-family: $mainFont;
+            font-size: 22px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin: 5px 0;
+        }
+    }
+
+    &-circle{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        border: 2px solid $mainBrown;
+        border-radius: 50px;
+        height: 35px;
+        width: 35px;
+
+        i{
+            color: $mainBrown;
+        }
+    }
+}

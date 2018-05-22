@@ -1,0 +1,26 @@
+{
+    "name": "all-road-static-designs",
+    "version": "1.0.0",
+    "description": "All road statics",
+    "main": "gulpfile.js",
+    "scripts": {
+        "build:sass": "gulp sass"
+    },
+    "keywords": [
+        "Fiterr",
+        "statics"
+    ],
+    "author": "Jake Jarrett",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^6.6.1",
+        "del": "^2.2.2",
+        "gulp": "^3.9.1",
+        "gulp-postcss": "^6.3.0",
+        "gulp-sass": "^3.1.0",
+        "gulp-sourcemaps": "^2.4.0",
+        "postcss": "^5.2.10",
+        "postcss-flexbugs-fixes": "^2.1.0",
+        "rimraf": "^2.5.4"
+    }
+}
