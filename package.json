@@ -1,26 +1,38 @@
 {
-    "name": "all-road-static-designs",
-    "version": "1.0.0",
-    "description": "All road statics",
-    "main": "gulpfile.js",
-    "scripts": {
-        "build:sass": "gulp sass"
-    },
-    "keywords": [
-        "Fiterr",
-        "statics"
-    ],
-    "author": "Jake Jarrett",
-    "license": "ISC",
-    "devDependencies": {
-        "autoprefixer": "^6.6.1",
-        "del": "^2.2.2",
-        "gulp": "^3.9.1",
-        "gulp-postcss": "^6.3.0",
-        "gulp-sass": "^3.1.0",
-        "gulp-sourcemaps": "^2.4.0",
-        "postcss": "^5.2.10",
-        "postcss-flexbugs-fixes": "^2.1.0",
-        "rimraf": "^2.5.4"
-    }
+  "name": "ibex",
+  "version": "1.0.0",
+  "description": "ibex website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build:sass": "gulp sass"
+  },
+  "keywords": [
+    "Fiterr",
+    "statics"
+  ],
+  "author": "Matthew Duran",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "del": "^2.2.2",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^6.3.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss": "^5.2.18",
+    "postcss-flexbugs-fixes": "^2.1.0",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "gulp-jsvalidate": "^4.0.0",
+    "node-sass": "^4.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Durantula/Help-Hand.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Durantula/Help-Hand/issues"
+  },
+  "homepage": "https://github.com/Durantula/Help-Hand#readme"
 }

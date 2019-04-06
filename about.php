@@ -6,19 +6,35 @@
 get_header(); ?>
 
 
-<?php include "template-parts/navigation_pages.php" ?>
+<!-- Main Header Carousel -->
+<div class="headerBox">
 
-<div class="page-banner">
-    <div class="about-banner right-align" style="background-image: url(<?php echo get_template_directory_uri();?>/img/mainImage2.jpg)"></div>
-    <div class="transparent-filter2"></div>
-    <h1 class="bannerHeading"><?php echo get_field('main_heading')?></h1>
-    <div class="contact-pages mainHeadingFade">
-        <p><i class="fa fa-phone padding-right-side" aria-hidden="true"></i>03 9598 7717</p>
-        <p class="padding-left-side"> <i class="fa fa-mobile padding-right-side" aria-hidden="true"></i>0407 863 725</p>
+    <div class="header" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home.jpg')">
+    <?php include "template-parts/navigation.php" ?>
+        <!-- <div class="transparent-filter"></div> -->
+        <div class="container mainCenterContent">
+            <div class="row mainTopMessage">
+                <div class="col-md-1"></div>
+                <div class="col-md-7">
+                    <h1 class="mainHeadingFade"><?php echo get_field('main_heading')?></h1>
+                    <!-- <p class="mainHeadingFade">Call now</p>
+                    <div class="action">
+                        <div class="contact-group">
+                            <i class="fa fa-phone mainHeadingFade" aria-hidden="true"></i>
+                            <p class="mainHeadingFade"><?php echo get_option('phone_number'); ?></p>
+                        </div>
+                        <div class="contact-group">
+                            <i class="fa fa-mobile padding-left-contact mainHeadingFade" aria-hidden="true"></i>
+                            <p class="mainHeadingFade"><?php echo get_option('mobile_number'); ?></p>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="col-md-2"></div>
+            </div>
+        </div>
     </div>
 </div>
-
-<?php include "template-parts/service_offering.php" ?>
 
 <div class="services-main-box">
     <div class="container services-container-box">

@@ -1,0 +1,56 @@
+.home-care{
+    background-color: #ffffff!important;
+
+    &-logo{
+        height: 150px;
+        width: auto;
+        margin-bottom: 15px;
+
+        @media screen and (max-width: 768px){
+            height: 100px;
+        }
+    }
+
+    &-circle{
+        background-color: #3FBDD5!important;
+    }
+
+    
+    &-heading{
+        margin-bottom: 30px!important;
+        color: #636363;
+        font-weight: 400;
+        @media screen and (max-width: 768px){
+            font-size: 28px!important;
+            margin-bottom: 15px;
+        }
+    }
+
+    &-subheading{
+        font-family: $mainFont;
+        font-size: 22px;
+        text-align: center;
+        margin: 0 auto 20px;
+        font-weight: 100;
+        color: #636363;
+
+        @media screen and (max-width: 768px){
+            font-size: 14px;
+        }
+    }
+
+    &-benefit-list{
+        font-family: $mainFont;
+        font-weight: 100;
+        font-size: 16px;
+        color: #636363;
+        @media screen and (max-width: 768px){
+            font-size: 13px;
+        }
+    }
+
+    &-box{
+        margin-bottom: 30px;
+    }
+}
+

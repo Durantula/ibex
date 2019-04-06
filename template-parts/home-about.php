@@ -22,6 +22,9 @@
             </div>
         </div>
     </div>
+    <div class="wave">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/wave-white.svg" alt="wave svg">
+    </div>
 </div>
 <?php endif; ?>
 

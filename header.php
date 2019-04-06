@@ -38,8 +38,8 @@ time and work load involved."/>
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,500,700,900" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,900" rel="stylesheet">
 
 <!-- Owl Carousel -->
 <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/owlcarousel/owl.carousel.min.css">

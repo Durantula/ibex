@@ -73,7 +73,7 @@ button:focus{
         width: 200px!important;
 
         img{
-            height: 50px;
+            height: 100px;
             z-index: 60;
             margin: 15px 0 15px 15px;
             @media screen and (max-width: 768px){
@@ -146,7 +146,7 @@ button:focus{
                 align-items: center;
                 
                 &:hover{
-                    color: #58c8b4;
+                    color: #003f77;
                 }
 
                 @media screen and (max-width: 1200px){
@@ -165,7 +165,7 @@ button:focus{
 
 .active{
     .nav-link{
-        color:#58c8b4!important;
+        color:grey!important;
     
     }
  

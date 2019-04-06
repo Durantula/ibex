@@ -19,7 +19,7 @@
 <footer>
 
 <div class="footer">
-    <img src="<?php echo get_template_directory_uri();?>/img/logo_new.png" alt="">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/logo_blue_large.png" alt="">
     
 	<div class="footerNavigation">
 		<?php
@@ -38,11 +38,8 @@
 		?>
 	</div>
 
-	<p>&copy; Help@Hand Aged Care Placements | ABN : 46 866 701 058</p>
+	<p>&copy; IBEX Engineering Pty Ltd | ABN : 46 866 701 058</p>
 
-	<div class="trust-box">
-		<img src="<?php echo get_template_directory_uri();?>/img/aasp.png" alt="aasp qualified">
-	</div>
 </div>
 
 </footer>

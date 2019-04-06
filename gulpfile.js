@@ -27,7 +27,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('sass:watch', function () {
-  gulp.watch(sassFiles, ['sass']);
+  gulp.watch(sassFiles);
 });
 
 gulp.task('autoprefixer', function () {
@@ -39,7 +39,7 @@ gulp.task('autoprefixer', function () {
 });
 
 
-gulp.task('build', ['clean'], function () {
-  gulp.start( ['sass', 'autoprefixer'] );
-});
-gulp.task('default', ['clean', 'sass', 'autoprefixer']);
+gulp.task('build', gulp.series('clean', 'sass', 'autoprefixer'));
+
+gulp.task('default', gulp.series('clean', 'sass', 'autoprefixer'));
+

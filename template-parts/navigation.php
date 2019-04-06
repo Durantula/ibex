@@ -7,8 +7,8 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand" href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_home_all_white.png" alt="Help at Hand Logo"></a>
-    <div class="navContact mr-auto">
+      <a class="navbar-brand" href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_white_large.png" alt="Help at Hand Logo"></a>
+    <div class="navContact">
     </div>
 
     <div class="navBox1">
@@ -27,7 +27,7 @@
             'theme_location'  => 'top',
             'container'       => 'div',
             'container_id'    => 'bs4navbar',
-            'container_class' => 'collapse navbar-collapse justify-content-end',
+            'container_class' => 'collapse navbar-collapse justify-content-between',
             'menu_id'         => false,
             'menu_class'      => 'navbar-nav',
             'depth'           => 2,
@@ -35,18 +35,8 @@
             'walker'          => new bs4navwalker()
           ]);
         ?>
-        <div class="socials">
-          <a target="_blank" href="<?php echo get_option('linkedin_page_url'); ?>">
-            <div class="circle">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </div>
-          </a>
-          <a target="_blank" href="<?php echo get_option('facebook_page_url'); ?>">
-            <div class="circle">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-            </div>
-          </a>
-        </div>
+      
+       
       </div>  
     </div>
   </nav>

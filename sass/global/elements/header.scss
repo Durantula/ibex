@@ -32,11 +32,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 600px;
+    height: 400px;
     width: 100%;
 	position: relative;
 	background-color: white;
 	display: flex;
+	overflow: hidden;
 	margin-bottom: 4px;
 	box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.3);
 
@@ -46,9 +47,9 @@
 	}
 
 	.mainTopMessage{
-		margin-top: 210px;
+		// margin-top: 210px;
 		@media screen and (max-width: 992px){
-			margin-top: 130px;
+			// margin-top: 130px;
 		}
 	}
 
@@ -66,15 +67,18 @@
 
 	h1{
 	
-		font-family: 'Raleway', sans-serif;		
-		font-size: 60px;
-		font-weight: 500;
+		font-family: $mainFont;
+		font-size: 35px;
+		font-weight: 700;
 		letter-spacing: 2px;
 		color: #fff;
-		padding-bottom: 50px;
+		// padding-bottom: 50px;
+		margin: 0px;
+		// text-shadow: 1px 1px 9px #ffffff;
+		
 		
 		@media screen and (max-width:1200px){
-			font-size: 40px;
+			font-size: 35px;
 		}
 		@media screen and (max-width:768px){
 			font-size: 30px;
@@ -546,5 +550,5 @@
 
 .mainHeadingFade{
 	opacity: 0;
-	margin-top: 50px;
+	// margin-top: 50px;
 }

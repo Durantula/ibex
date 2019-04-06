@@ -9,7 +9,7 @@ if($loop->have_posts()):?>
                 
                 $postID = $post->ID;?>
 
-                <div class="col-md-3 col-xs-4">
+                <div class="col-md-2 col-xs-4">
                     <div class="about-expertise-item">
                         <img src="<?php echo get_field('icon',$postID)?>" alt="Urgent Respite">
                         <p><?php echo get_field('service_short_name',$postID)?></p>

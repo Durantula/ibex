@@ -1,16 +1,24 @@
 <!-- Main Header Carousel -->
 <div class="headerBox">
     
-    <div class="header" style="background-image: url(<?php echo get_field('header_image')?>)">
+    <div class="header" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home.jpg')">
     <?php include "navigation.php" ?>
-        <div class="transparent-filter"></div>
-        <div class="container">
+        <!-- <div class="transparent-filter"></div> -->
+        <!-- <div class="x-feature">
+            <div class="x-feature-hide-inside-top"></div>
+            <div class="x-feature-hide-inside-bottom"></div>
+        </div>
+        <div class="x-feature-right">
+            <div class="x-feature-right-hide-inside-top"></div>
+            <div class="x-feature-right-hide-inside-bottom"></div>
+            <div class="x-feature-right-blue-box"></div>
+        </div> -->
+        <div class="container mainCenterContent">
             <div class="row mainTopMessage">
                 <div class="col-md-1"></div>
-
-                <div class="col-md-9">
+                <div class="col-md-7">
                     <h1 class="mainHeadingFade"><?php echo get_field('main_heading')?></h1>
-                    <p class="mainHeadingFade">Call now</p>
+                    <!-- <p class="mainHeadingFade">Call now</p>
                     <div class="action">
                         <div class="contact-group">
                             <i class="fa fa-phone mainHeadingFade" aria-hidden="true"></i>
@@ -20,7 +28,7 @@
                             <i class="fa fa-mobile padding-left-contact mainHeadingFade" aria-hidden="true"></i>
                             <p class="mainHeadingFade"><?php echo get_option('mobile_number'); ?></p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="col-md-2"></div>
